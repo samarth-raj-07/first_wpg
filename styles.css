@@ -1,0 +1,139 @@
+/* body{
+    background-color: rgb(162, 224, 247);
+} */
+
+
+/* using percentage instead of hard data is a good practice. */
+/* padding only pads content not background color */
+body{
+    margin: 0;
+    text-align: center;
+    font-family:"Merriweather",serif;
+    background-color: #e4f9f5;
+    /* font-size: large; */
+}
+
+h1{
+    /* width: 10%;
+    margin: 0 auto 0 auto; */  /* another way to align */
+    font-family: 'Sacramento', cursive;
+    font-size: 562.5%;
+    margin-top:  2.6rem ;
+    margin-bottom: 0;
+    color: #66bfbf;
+    /* line-height: 2; */
+}
+h2{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: normal;
+    color: #66bfbf;
+}
+h3{
+    font-family: 'Montserrat',sans-serif;
+    color: #11999e;
+    
+}
+
+div {
+    background-color: #EAF6F6;
+}
+
+/* .pro{
+     text-decoration: underline; 
+} */
+
+.top-container{
+    background-color: #e4f9f5;
+    /* background-color: yellow; */
+    position: relative;
+    padding-top: 100px ;
+
+
+}
+.middle-container{
+    margin-bottom: 20px;
+}
+.bottom-container{
+   
+}
+
+
+.topcloud{
+    position:absolute;
+    /* margin-left: 30%; */
+    right: 300px;
+    top: 50px;
+}
+.bottomcloud{
+    position: absolute;
+    /* margin-right: 30%; */
+    left: 300px;
+    bottom: 300px;
+
+}
+
+
+
+
+.footer-link{
+    color: #11999e;
+}.btn{color: #11999e;}
+
+.skills_{
+    text-decoration: underline;
+}
+.skill-row{
+    
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.profile-pic{
+    height: 200px;;
+}
+.photo-comp{
+    /* height: 200px; */
+    width: 25%;       /*25% of parent=skill row*/
+    float: left;
+    margin-right: 30px;
+}
+.photo-chess{
+    
+    width: 25%;       
+    float: right;
+    margin-left: 30px;
+}
+.code-skill-description{
+    clear: left;
+}
+.code-skill-description-2{
+    clear: right;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
